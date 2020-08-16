@@ -23,14 +23,23 @@ namespace TAREFA2
                                      .Build();
 
                 var appConfig = construtor.GetSection("configuracaoCaminho").Get<AplicacaoConfig>();
-
-                List<Mapa> lista = File.ReadAllLines(appConfig.Caminho)
+                if(File.Exists(appConfig.Caminho))
+                {
+                    List<Mapa> lista = File.ReadAllLines(appConfig.Caminho)
                                        .Select(l => ControllerMapa.carregaCSV(l))
                                        .ToList();
 
-                ControllerMapa.OrdenaBubleSort(ref lista);
-                string[] convertido = lista.Select(t => t.Local.ToString() + ";" + t.popUltimoSenso.ToString()).ToArray();
-                File.WriteAllLines(appConfig.Destino, convertido);
+                    ControllerMapa.OrdenaBubleSort(ref lista);
+                    string[] convertido = lista.Select(t => t.Local.ToString() + ";" + t.popUltimoSenso.ToString()).ToArray();
+                    File.WriteAllLines(appConfig.Destino, convertido);
+
+                    Console.WriteLine("Arquivo ordenado e salvo em Arquivo/mapa2.csv.");
+                }
+                else
+                {
+                    Console.WriteLine("Arquivo não encontrado no caminho "+ appConfig.Caminho);
+                }
+                
             }
             catch (Exception e)
             {

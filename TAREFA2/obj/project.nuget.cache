@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y/cBsBbiD9Ssem0J1YlGZWemvdSs8sQJJGwHLwtJl3+c9So+ebounMj/NDiAzPxCV6/wQsL/A9hoPkmhZfXPSg==",
+  "dgSpecHash": "2n+P2RVW5NEYY8Fp2L2vJlIKZfEndzlk5POnVb3uRBKXk2XsE5HR3MpZGlSHKl6Cem6QP6uzUER1o9mdm0C4hA==",
   "success": true,
-  "projectFilePath": "D:\\Estudo\\dotnetcore\\TG4\\TAREFA2\\TAREFA2\\TAREFA2.csproj",
+  "projectFilePath": "D:\\Estudo\\dotnetcore\\TG4\\prova-logica\\TAREFA2\\TAREFA2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.7\\microsoft.extensions.configuration.3.1.7.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.7\\microsoft.extensions.configuration.abstractions.3.1.7.nupkg.sha512",

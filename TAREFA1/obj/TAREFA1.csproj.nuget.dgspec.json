@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Estudo\\dotnetcore\\TG4\\TAREFA1\\TAREFA1.csproj": {}
+    "D:\\Estudo\\dotnetcore\\TG4\\prova-logica\\TAREFA1\\TAREFA1.csproj": {}
   },
   "projects": {
-    "D:\\Estudo\\dotnetcore\\TG4\\TAREFA1\\TAREFA1.csproj": {
+    "D:\\Estudo\\dotnetcore\\TG4\\prova-logica\\TAREFA1\\TAREFA1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Estudo\\dotnetcore\\TG4\\TAREFA1\\TAREFA1.csproj",
+        "projectUniqueName": "D:\\Estudo\\dotnetcore\\TG4\\prova-logica\\TAREFA1\\TAREFA1.csproj",
         "projectName": "TAREFA1",
-        "projectPath": "D:\\Estudo\\dotnetcore\\TG4\\TAREFA1\\TAREFA1.csproj",
+        "projectPath": "D:\\Estudo\\dotnetcore\\TG4\\prova-logica\\TAREFA1\\TAREFA1.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "D:\\Estudo\\dotnetcore\\TG4\\TAREFA1\\obj\\",
+        "outputPath": "D:\\Estudo\\dotnetcore\\TG4\\prova-logica\\TAREFA1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

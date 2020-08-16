@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Estudo\\dotnetcore\\TG4\\TAREFA3\\TAREFA3.csproj": {}
+    "D:\\Estudo\\dotnetcore\\TG4\\prova-logica\\TAREFA3\\TAREFA3.csproj": {}
   },
   "projects": {
-    "D:\\Estudo\\dotnetcore\\TG4\\TAREFA3\\TAREFA3.csproj": {
+    "D:\\Estudo\\dotnetcore\\TG4\\prova-logica\\TAREFA3\\TAREFA3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Estudo\\dotnetcore\\TG4\\TAREFA3\\TAREFA3.csproj",
+        "projectUniqueName": "D:\\Estudo\\dotnetcore\\TG4\\prova-logica\\TAREFA3\\TAREFA3.csproj",
         "projectName": "TAREFA3",
-        "projectPath": "D:\\Estudo\\dotnetcore\\TG4\\TAREFA3\\TAREFA3.csproj",
+        "projectPath": "D:\\Estudo\\dotnetcore\\TG4\\prova-logica\\TAREFA3\\TAREFA3.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "D:\\Estudo\\dotnetcore\\TG4\\TAREFA3\\obj\\",
+        "outputPath": "D:\\Estudo\\dotnetcore\\TG4\\prova-logica\\TAREFA3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -46,6 +46,10 @@
               "version": "[3.1.7, )"
             },
             "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
               "target": "Package",
               "version": "[3.1.7, )"
             },

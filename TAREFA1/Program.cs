@@ -26,14 +26,20 @@ namespace TAREFA1
 
                 var appConfig = construtor.GetSection("configuracaoCaminho").Get<AplicacaoConfig>();
 
-                List<Mapa> lista = File.ReadAllLines(appConfig.Caminho)
-                                       .Select(l => ControllerMapa.carregaCSV(l))
-                                       .ToList();
-                string[] convertido = lista.Select(t => t.Local.ToString() + ";" + t.popUltimoSenso.ToString()).ToArray();
-                
-                File.WriteAllLines(appConfig.Destino, convertido);
-                Console.WriteLine("Novo arquivo gerado mapa2.csv");
-
+                if(File.Exists(appConfig.Caminho))
+                {
+                    List<Mapa> lista = File.ReadAllLines(appConfig.Caminho)
+                                        .Select(l => ControllerMapa.carregaCSV(l))
+                                        .ToList();
+                    string[] convertido = lista.Select(t => t.Local + ";" + t.popUltimoSenso).ToArray();
+                    
+                    File.WriteAllLines(appConfig.Destino, convertido);
+                    Console.WriteLine("Novo arquivo gerado mapa2.csv");
+                }
+                else
+                {
+                    Console.WriteLine("Arquivo não encontrado no caminho "+ appConfig.Caminho);
+                } 
             }catch(Exception e)
             {
                 Console.WriteLine(e.Message);

@@ -34,7 +34,7 @@ namespace TAREFA1
                     string[] convertido = lista.Select(t => t.Local + ";" + t.popUltimoSenso).ToArray();
                     
                     File.WriteAllLines(appConfig.Destino, convertido);
-                    Console.WriteLine("Novo arquivo gerado mapa2.csv");
+                    Console.WriteLine("Novo arquivo gerado na pasta Arquivo/mapa2.csv");
                 }
                 else
                 {

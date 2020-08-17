@@ -9,20 +9,13 @@ namespace TAREFA2.Controller
     {
 
         public static Mapa carregaCSV(string dado)
-        {
-            try
-            {
+        {      
                 string[] valores = dado.Split(";");
                 Mapa m = new Mapa();
                 m.Local = valores[0];
                 m.popUltimoSenso = valores[1];
 
                 return m;
-            }
-            catch(Exception e)
-            {
-                throw e;
-            }
             
         }
 

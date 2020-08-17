@@ -45,7 +45,7 @@ namespace TAREFA3.Controller
                 }
                 else
                 {
-                    Console.WriteLine("Erro");
+                    Console.WriteLine(response.StatusCode);
                     return end;
                 }
             }

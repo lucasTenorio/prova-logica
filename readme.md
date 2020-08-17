@@ -45,3 +45,14 @@ O que avaliamos:
 
 Fique a vontade para nos procurar, o RH vai mandar o contato para dúvidas
 Nos diga o que achou do teste
+
+
+## Ferramenta utilizada
+VS Code.
+
+# Execução
+Ter instalado dotnet core link [https://dotnet.microsoft.com/download] e executar nas pastas (TAREFA1, TAREFA2, TAREFA3)
+```
+    dotnet run
+```
+Agradeço a oportunidade.
